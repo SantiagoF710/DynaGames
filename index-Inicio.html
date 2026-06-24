@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dyna Games: videojuegos, novedades y grandes aventuras para todos los jugadores.">
+    <title>Dyna Games - Inicio</title>
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/Style.css">
+
+</head>
+
+<body class="page-home">
+
+    
+    <header>
+
+        <div class="flexbox centrado">
+            
+            <div class="logo">
+
+                <div>
+                    
+                    <a href="index-Inicio.html" aria-label="Ir al inicio" class="brand-link">
+                        <img src="img/logo.png" alt="Dyna Games">
+                        <span class="brand-copy"><strong>Dyna</strong><small>Games Store</small></span>
+                    </a>
+                
+                </div>
+
+            </div>
+          
+                <nav aria-label="Navegación principal">
+            
+                    <a href="index-Inicio.html" id="inicio" aria-current="page">Inicio</a>
+                    <a href="index-Catalogo.html">Catálogo</a>
+                    <a href="#contacto">Contacto</a>
+    
+                </nav>
+
+        </div>
+
+        <div class="compra">
+
+            <div>
+    
+                <a href="#" aria-label="Ver carrito"><img src="img/compra2.png" alt=""></a>
+    
+            </div>
+    
+            <div>
+    
+                <a href="#" aria-label="Ver carrito"><img src="img/compra.png" alt=""></a>
+    
+            </div>
+    
+        </div>
+
+    </header>
+
+    <main>
+
+    <section id="banner" aria-labelledby="hero-title">
+
+        <div id="slider">
+    
+            <div>
+               
+                <p class="eyebrow">Tu próxima aventura empieza acá</p>
+                <h1 id="hero-title">Jugá sin límites</h1>
+                <p class="hero-copy">Descubrí mundos increíbles, historias inolvidables y los títulos que todos están jugando.</p>
+                <div class="hero-actions">
+                    <a href="index-Catalogo.html" class="button button-primary">Explorar catálogo</a>
+                    <a href="#primeraseccion" class="button button-ghost">Ver novedades</a>
+                </div>
+            
+            </div>
+        
+        </div>
+
+    </section>
+
+    <section id="primeraseccion" class="centrado flex">
+
+        <div class="section-heading">
+            <p class="eyebrow">Recién llegados</p>
+            <h2>Novedades destacadas</h2>
+            <p>Una selección de lanzamientos y favoritos elegidos para tu próxima partida.</p>
+        </div>
+
+        <article id="grilla">
+
+
+        </article>
+
+    </section>
+
+    <section id="segundaseccion">
+
+        <div id="imagen">
+
+        </div>
+
+        <article class="centrado form">
+
+            <p class="eyebrow">Estamos para ayudarte</p>
+            <h2 id="contacto">Contacto</h2>
+            <p class="form-intro">¿Tenés una consulta o buscás una recomendación? Escribinos y te respondemos.</p>
+            
+            <form action="" method="get" id="formulario">
+
+                <h3>Datos del usuario</h3>
+
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" id="nombre" class="input" autocomplete="given-name" required>
+                <p></p>
+
+                <label for="apellido">Apellido</label>
+                <input type="text" name="apellido" id="apellido" class="input" autocomplete="family-name" required>
+                <p></p>
+
+                <label for="celular">Celular</label>
+                <input type="tel" name="celular" id="celular" class="input" placeholder="095 869 023" autocomplete="tel" inputmode="tel" required>
+                <p></p>
+
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" class="input" placeholder="nombre@ejemplo.com" autocomplete="email" required>
+                <p></p>
+
+                <label for="asunto">Asunto</label>
+                <input type="text" name="asunto" id="asunto" class="input" placeholder="Asunto..." required>
+                <p></p>
+
+                <h3>Escribinos</h3>
+                <textarea name="mensaje" placeholder="Dejanos tu mensaje" id="txtarea" class="textarea" minlength="20" maxlength="300" required></textarea>
+                <p></p>
+
+                <label for="terminos" class="terminos2">
+                <input type="checkbox" name="terminos" id="terminos" value="acepto">
+                Acepto los términos y condiciones.
+                </label>
+                <p></p>
+
+                <input type="submit" id="boton" value="Enviar">
+            </form>
+
+        </article>
+
+    </section>
+
+    </main>
+
+    <footer>
+
+        <div class="centrado">
+
+            <div class="footer-social">
+                
+                <a href="#" aria-label="Instagram"> <img src="img/instagram.png" alt=""></a>
+                <a href="#" aria-label="Twitter"> <img src="img/twitter.png" alt=""></a>
+                <a href="#" aria-label="Facebook"> <img src="img/facebook.png" alt=""></a>
+    
+            </div>
+    
+            <div class="footer-copy">
+
+                <strong>Dyna Games</strong>
+                <p>Tu mundo, tus juegos, tu próxima aventura.</p>
+    
+            </div>
+
+        </div>
+
+    </footer>
+
+    <div id="promociones">
+        
+
+    </div>
+
+    
+
+
+    <script src="js/script-bd.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
